@@ -1,4 +1,5 @@
 let engrandecer = document.getElementById("engrandecer");
+let grande = document.getElementById("grande");
 let diminuir = document.getElementById("diminuir");
 let numero = document.getElementById("numero");
 let contador = 0;
@@ -9,6 +10,7 @@ function atualizar(){
 }
 
 engrandecer.addEventListener("click", function(){
+grande.addEventListener("click", function(){
     contador++
     atualizar()
 });
